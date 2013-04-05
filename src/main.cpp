@@ -175,7 +175,6 @@ void display( void )
     glFlush();
     // End Drawing calls
     glutSwapBuffers();
-    screenshot.capture();
 }
 
 void reshape( int w, int h )

@@ -1,0 +1,37 @@
+I used CMake to compile my program. I used the starter code and
+added shader options #1 (phong), #2 (blinn-phong), #3 (texture-
+modulated blinn-phong), #4 (black + white checkerboard), and 
+attempted #6 (normal map) using a tutorial I found online for 
+bump mapping but did not end up getting it working. I also made 
+a blinn-phong checkerboard shader and a blinn-phong shader that
+makes a lollipop swirl pattern, as well as a shader that simply
+maps an image onto the surface. I used the SOIL library to load
+image files as textures, and included a couple images of a stone
+texture that came from one of the tutorials I used. 
+
+Keyboard controls:
+0: silhouette shader
+1: gourand phong shader
+2: blinn-phong
+3: texture-modulated blinn-phong
+4: b/w checkerboard
+5: blinn-phong checkerboard
+6: failed attempt at normal mapping
+7: swirl pattern
+8: image texture map
+9: toon example shader
+
+These are some resources/tutorials I found online that were 
+helpful and influenced my code:
+
+NeHe tutorial on textures and SOIL: 
+http://nehe.gamedev.net/tutorial/lesson_06_texturing_update/47002/
+
+I used the wikipedia articles on phong & blinn-phong reflection model:
+http://en.wikipedia.org/wiki/Phong_reflection_model
+http://en.wikipedia.org/wiki/Blinn%E2%80%93Phong_shading_model
+
+normal/bump mapping:
+http://www.bencloward.com/shaders_simpleNormalMap.shtml
+http://www.ozone3d.net/tutorials/bump_mapping.php
+

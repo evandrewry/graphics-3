@@ -1,3 +1,11 @@
+To compile:
+
+from root directory, 
+
+$ cmake .
+$ make
+$ ./pa3
+
 I used CMake to compile my program. I used the starter code and
 added shader options #1 (phong), #2 (blinn-phong), #3 (texture-
 modulated blinn-phong), #4 (black + white checkerboard), and 
